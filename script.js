@@ -312,7 +312,9 @@ function tocheck(k){
 
 function draw(){
   if(g==9){
-    nt.innerText="Game Draw";
+    if(z==0){
+     nt.innerText="Game Draw";
+    }
   }
 }
 
